@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Vm-s8-cel">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qDo-Xb-sKc">
+            <objects>
+                <viewController id="2Vm-s8-cel" customClass="ViewController" customModule="swiftsdkDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nks-GG-FKj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OEX-B5-pDa">
+                                <rect key="frame" x="40" y="334" width="92" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kX-Xg-5Vp">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="30"/>
+                                        <state key="normal" title="发送应用数据">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test41:" destination="2Vm-s8-cel" eventType="touchUpInside" id="1GK-Py-k46"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="N9p-LM-lBw">
+                                <rect key="frame" x="40" y="404" width="92" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L1-xh-3s9">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="30"/>
+                                        <state key="normal" title="查看日志级别">
+                                            <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test51:" destination="2Vm-s8-cel" eventType="touchUpInside" id="E4v-l8-fj5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvV-tD-Ksy">
+                                        <rect key="frame" x="0.0" y="30" width="92" height="30"/>
+                                        <state key="normal" title="设置日志级别">
+                                            <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test52:" destination="2Vm-s8-cel" eventType="touchUpInside" id="EvS-9m-epQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DW5-By-EtI">
+                                        <rect key="frame" x="15" y="60" width="62" height="30"/>
+                                        <state key="normal" title="发送日志">
+                                            <color key="titleColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test53:" destination="2Vm-s8-cel" eventType="touchUpInside" id="tVu-1p-q2j"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="epA-NR-R3h">
+                                <rect key="frame" x="40" y="534" width="95" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQo-Vh-I1u">
+                                        <rect key="frame" x="16.666666666666664" y="0.0" width="61.999999999999993" height="30"/>
+                                        <state key="normal" title="修改昵称">
+                                            <color key="titleColor" red="1" green="0.18024626999999999" blue="0.33096636820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test61:" destination="2Vm-s8-cel" eventType="touchUpInside" id="3Ld-ei-tDV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hy5-0c-C2Q">
+                                        <rect key="frame" x="1.6666666666666643" y="30" width="92" height="30"/>
+                                        <state key="normal" title="获取机器信息">
+                                            <color key="titleColor" red="1" green="0.18024626999999999" blue="0.33096636820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test62:" destination="2Vm-s8-cel" eventType="touchUpInside" id="d7S-hH-Q8U"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlC-7N-3Y6">
+                                        <rect key="frame" x="15" y="60" width="65" height="30"/>
+                                        <state key="normal" title="更新mind">
+                                            <color key="titleColor" red="1" green="0.18024626999999999" blue="0.33096636820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test63:" destination="2Vm-s8-cel" eventType="touchUpInside" id="PUD-9f-IBM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewE-gR-UPg">
+                                        <rect key="frame" x="0.0" y="90" width="95" height="30"/>
+                                        <state key="normal" title="获取mind版本">
+                                            <color key="titleColor" red="1" green="0.18024626999999999" blue="0.33096636820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test64:" destination="2Vm-s8-cel" eventType="touchUpInside" id="DXY-qi-RFe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7K1-lH-STU">
+                                <rect key="frame" x="243" y="84" width="92" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZb-rO-4Zc">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="30"/>
+                                        <state key="normal" title="添加可信用户">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test71:" destination="2Vm-s8-cel" eventType="touchUpInside" id="9fq-lU-WLz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bk-N6-pfq">
+                                        <rect key="frame" x="0.0" y="30" width="92" height="30"/>
+                                        <state key="normal" title="删除可信用户">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test72:" destination="2Vm-s8-cel" eventType="touchUpInside" id="fr7-sg-oFO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CR-C0-EJW">
+                                        <rect key="frame" x="0.0" y="60" width="92" height="30"/>
+                                        <state key="normal" title="获取可信列表">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test73:" destination="2Vm-s8-cel" eventType="touchUpInside" id="g7U-lg-v6T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hn0-04-tLl">
+                                        <rect key="frame" x="0.0" y="90" width="92" height="30"/>
+                                        <state key="normal" title="转让机主身份">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test74:" destination="2Vm-s8-cel" eventType="touchUpInside" id="aKp-zp-4nY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z8v-uT-YD0">
+                                <rect key="frame" x="240" y="224" width="95" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="py2-Uf-QlG">
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="30"/>
+                                        <state key="normal" title="本地SSID列表">
+                                            <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test81:" destination="2Vm-s8-cel" eventType="touchUpInside" id="Hmk-0J-GQf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeQ-pd-WBx">
+                                        <rect key="frame" x="0.0" y="30" width="95" height="30"/>
+                                        <state key="normal" title="扫描周边SSID">
+                                            <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test82:" destination="2Vm-s8-cel" eventType="touchUpInside" id="682-LD-GqD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alK-Ly-VhA">
+                                        <rect key="frame" x="13" y="60" width="69" height="30"/>
+                                        <state key="normal" title="添/修SSID">
+                                            <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test83:" destination="2Vm-s8-cel" eventType="touchUpInside" id="vdE-be-p6p"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRt-R6-a85">
+                                        <rect key="frame" x="15.666666666666657" y="90" width="64" height="30"/>
+                                        <state key="normal" title="删除SSID">
+                                            <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test84:" destination="2Vm-s8-cel" eventType="touchUpInside" id="EED-nJ-vMe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5CW-6h-JxO">
+                                <rect key="frame" x="265" y="364" width="70" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXI-M6-0cJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="30"/>
+                                        <state key="normal" title="切换到wifi">
+                                            <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test91:" destination="2Vm-s8-cel" eventType="touchUpInside" id="6xz-6t-dOO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVo-2d-5lE">
+                                        <rect key="frame" x="2" y="30" width="66" height="30"/>
+                                        <state key="normal" title="切换到AP">
+                                            <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test92:" destination="2Vm-s8-cel" eventType="touchUpInside" id="zEI-6t-S1J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gQo-xL-5fI">
+                                <rect key="frame" x="243" y="444" width="92" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iN4-fY-eC5">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="30"/>
+                                        <state key="normal" title="获取语言环境">
+                                            <color key="titleColor" red="0.13816522219999999" green="0.50544446239999996" blue="0.23940177060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test101:" destination="2Vm-s8-cel" eventType="touchUpInside" id="9j0-UX-Qiq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOS-ou-d9w">
+                                        <rect key="frame" x="0.0" y="30" width="92" height="30"/>
+                                        <state key="normal" title="设置语言环境">
+                                            <color key="titleColor" red="0.13816522219999999" green="0.50544446239999996" blue="0.23940177060000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test102:" destination="2Vm-s8-cel" eventType="touchUpInside" id="LFw-nj-Cr9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fKJ-ml-kfW">
+                                <rect key="frame" x="212" y="524" width="123" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n10-ip-Bgg">
+                                        <rect key="frame" x="46" y="0.0" width="31" height="30"/>
+                                        <state key="normal" title="关机"/>
+                                        <connections>
+                                            <action selector="test111:" destination="2Vm-s8-cel" eventType="touchUpInside" id="0Us-mV-FcT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPm-at-OMo">
+                                        <rect key="frame" x="46" y="30" width="31" height="30"/>
+                                        <state key="normal" title="重启"/>
+                                        <connections>
+                                            <action selector="test112:" destination="2Vm-s8-cel" eventType="touchUpInside" id="Pa8-Yt-x7j"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNm-CK-fhG">
+                                        <rect key="frame" x="23" y="60" width="77" height="30"/>
+                                        <state key="normal" title="开发者模式"/>
+                                        <connections>
+                                            <action selector="test113:" destination="2Vm-s8-cel" eventType="touchUpInside" id="viJ-E2-25M"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnX-oA-N0h">
+                                        <rect key="frame" x="0.0" y="90" width="123" height="30"/>
+                                        <state key="normal" title="系统回复通知确认"/>
+                                        <connections>
+                                            <action selector="test114:" destination="2Vm-s8-cel" eventType="touchUpInside" id="Sv9-W3-c9r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppn-4e-j0t">
+                                        <rect key="frame" x="15.666666666666657" y="120" width="92" height="30"/>
+                                        <state key="normal" title="清除系统修改"/>
+                                        <connections>
+                                            <action selector="test115:" destination="2Vm-s8-cel" eventType="touchUpInside" id="8Wk-Cu-Pyi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKd-Xb-lbO">
+                                        <rect key="frame" x="15.666666666666657" y="150" width="92" height="30"/>
+                                        <state key="normal" title="清除应用数据"/>
+                                        <connections>
+                                            <action selector="test1110:" destination="2Vm-s8-cel" eventType="touchUpInside" id="RV1-35-ehs"/>
+                                            <action selector="test116:" destination="2Vm-s8-cel" eventType="touchUpInside" id="aAr-KL-TIR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyX-ms-t9b">
+                                        <rect key="frame" x="15.666666666666657" y="180" width="92" height="30"/>
+                                        <state key="normal" title="关闭日志上传"/>
+                                        <connections>
+                                            <action selector="test1110:" destination="2Vm-s8-cel" eventType="touchUpInside" id="QUk-QA-FBv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7q-w5-flw">
+                                        <rect key="frame" x="15.666666666666657" y="210" width="92" height="30"/>
+                                        <state key="normal" title="开启日志上传"/>
+                                        <connections>
+                                            <action selector="test1112:" destination="2Vm-s8-cel" eventType="touchUpInside" id="29E-Eq-wVn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sfm-VE-1qi">
+                                <rect key="frame" x="40" y="84" width="88" height="210"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vff-aJ-RcX">
+                                        <rect key="frame" x="3" y="0.0" width="82" height="30"/>
+                                        <state key="normal" title="获取skillList">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test31:" destination="2Vm-s8-cel" eventType="touchUpInside" id="TBO-Oe-gI4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mo4-4b-5o0">
+                                        <rect key="frame" x="15.666666666666664" y="30" width="56.999999999999993" height="30"/>
+                                        <state key="normal" title="连接skill">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test32:" destination="2Vm-s8-cel" eventType="touchUpInside" id="Tw1-MS-VCZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBf-9w-XQG">
+                                        <rect key="frame" x="15.666666666666664" y="60" width="56.999999999999993" height="30"/>
+                                        <state key="normal" title="断开skill">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test33:" destination="2Vm-s8-cel" eventType="touchUpInside" id="Cnx-7X-IIX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3a-6k-gJh">
+                                        <rect key="frame" x="15.666666666666664" y="90" width="56.999999999999993" height="30"/>
+                                        <state key="normal" title="停止skill">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test34:" destination="2Vm-s8-cel" eventType="touchUpInside" id="ueK-TV-AnV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J50-E2-K4z">
+                                        <rect key="frame" x="15.666666666666664" y="120" width="56.999999999999993" height="30"/>
+                                        <state key="normal" title="删除skill">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test35:" destination="2Vm-s8-cel" eventType="touchUpInside" id="xjO-vP-dXh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCk-el-kmm">
+                                        <rect key="frame" x="15.666666666666664" y="150" width="56.999999999999993" height="30"/>
+                                        <state key="normal" title="下载skill">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test36:" destination="2Vm-s8-cel" eventType="touchUpInside" id="HVd-kl-qvF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dep-Ef-5r6">
+                                        <rect key="frame" x="0.0" y="180" width="88" height="30"/>
+                                        <state key="normal" title="暂停下载skill">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="test37:" destination="2Vm-s8-cel" eventType="touchUpInside" id="wXN-ZS-WvD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.92162626979999995" blue="0.92145836349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N9p-LM-lBw" firstAttribute="leading" secondItem="pE1-eP-WYp" secondAttribute="leading" constant="40" id="2Ft-gb-3Bx"/>
+                            <constraint firstItem="pE1-eP-WYp" firstAttribute="trailing" secondItem="5CW-6h-JxO" secondAttribute="trailing" constant="40" id="2qi-s9-vbz"/>
+                            <constraint firstItem="epA-NR-R3h" firstAttribute="top" secondItem="N9p-LM-lBw" secondAttribute="bottom" constant="40" id="4P7-GZ-3e4"/>
+                            <constraint firstItem="7K1-lH-STU" firstAttribute="top" secondItem="pE1-eP-WYp" secondAttribute="top" constant="40" id="B0f-rF-XN3"/>
+                            <constraint firstItem="pE1-eP-WYp" firstAttribute="trailing" secondItem="7K1-lH-STU" secondAttribute="trailing" constant="40" id="BBm-Xq-kpF"/>
+                            <constraint firstItem="5CW-6h-JxO" firstAttribute="top" secondItem="Z8v-uT-YD0" secondAttribute="bottom" constant="20" id="CZ2-cp-M52"/>
+                            <constraint firstItem="fKJ-ml-kfW" firstAttribute="top" secondItem="gQo-xL-5fI" secondAttribute="bottom" constant="20" id="IRy-4z-Tne"/>
+                            <constraint firstItem="pE1-eP-WYp" firstAttribute="trailing" secondItem="Z8v-uT-YD0" secondAttribute="trailing" constant="40" id="Vv2-WW-Z90"/>
+                            <constraint firstItem="N9p-LM-lBw" firstAttribute="top" secondItem="OEX-B5-pDa" secondAttribute="bottom" constant="40" id="XdX-uz-Oef"/>
+                            <constraint firstItem="sfm-VE-1qi" firstAttribute="top" secondItem="pE1-eP-WYp" secondAttribute="top" constant="40" id="XfZ-mw-4el"/>
+                            <constraint firstItem="pE1-eP-WYp" firstAttribute="trailing" secondItem="gQo-xL-5fI" secondAttribute="trailing" constant="40" id="YUv-BQ-n3p"/>
+                            <constraint firstItem="sfm-VE-1qi" firstAttribute="leading" secondItem="pE1-eP-WYp" secondAttribute="leading" constant="40" id="c4N-iY-NUZ"/>
+                            <constraint firstItem="gQo-xL-5fI" firstAttribute="top" secondItem="5CW-6h-JxO" secondAttribute="bottom" constant="20" id="dN0-5I-mfs"/>
+                            <constraint firstItem="OEX-B5-pDa" firstAttribute="top" secondItem="sfm-VE-1qi" secondAttribute="bottom" constant="40" id="fU4-va-6jD"/>
+                            <constraint firstItem="epA-NR-R3h" firstAttribute="leading" secondItem="pE1-eP-WYp" secondAttribute="leading" constant="40" id="lN8-lr-ozA"/>
+                            <constraint firstItem="Z8v-uT-YD0" firstAttribute="top" secondItem="7K1-lH-STU" secondAttribute="bottom" constant="20" id="tsS-5T-zOB"/>
+                            <constraint firstItem="OEX-B5-pDa" firstAttribute="leading" secondItem="pE1-eP-WYp" secondAttribute="leading" constant="40" id="v40-sK-PB5"/>
+                            <constraint firstItem="pE1-eP-WYp" firstAttribute="trailing" secondItem="fKJ-ml-kfW" secondAttribute="trailing" constant="40" id="wLy-xm-ZDc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pE1-eP-WYp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Isx-3p-Z0V" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-991" y="-67"/>
+        </scene>
+    </scenes>
+</document>

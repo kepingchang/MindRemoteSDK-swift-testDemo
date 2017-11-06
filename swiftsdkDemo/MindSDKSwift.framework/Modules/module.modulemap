@@ -1,0 +1,11 @@
+framework module MindSDKSwift {
+  umbrella header "MindSDKSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module MindSDKSwift.Swift {
+    header "MindSDKSwift-Swift.h"
+    requires objc
+}
