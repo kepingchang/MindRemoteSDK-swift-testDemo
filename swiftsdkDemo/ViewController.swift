@@ -252,4 +252,46 @@ class ViewController: UIViewController {
 
 
 
+//private var bKey: Void?
+//
+//extension ViewController {
+//
+//    var a = false
+//
+//
+//
+//    var b: Bool {
+//        get {
+//            return getAssociateValue(with: &bKey)!
+//        }
+//        set {
+//            setAssociateValue(newValue, key: &bKey)
+//        }
+//    }
+//}
+//
+//
+//
+//
+//public extension NSObject {
+//
+//    public func setAssociateValue(_ value: Any!, key: UnsafeRawPointer!) {
+//        objc_setAssociatedObject(self, key, value, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+//    }
+//
+//    public func setAssociateWeakValue(_ value: Any!, key: UnsafeRawPointer!) {
+//        objc_setAssociatedObject(self, key, value, .OBJC_ASSOCIATION_ASSIGN)
+//    }
+//
+//    public func getAssociateValue<T>(with key: UnsafeRawPointer!) -> T? {
+//        return objc_getAssociatedObject(self, key) as? T
+//    }
+//
+//    public func removeAssociatedValues() {
+//        objc_removeAssociatedObjects(self)
+//    }
+//}
+
+
+
 
